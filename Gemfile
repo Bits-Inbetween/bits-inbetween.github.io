@@ -1,13 +1,9 @@
 # Gemfile
+source "https://rubygems.org"
 
-source 'https://rubygems.org'
+# gem "github-pages", group: :jekyll_plugins
 
-gem 'jekyll', '~> 4.2'
+gem 'jekyll-feed'
+gem 'webrick'
 
-group :jekyll_plugins do
-  gem 'jekyll-timeago', '~> 0.13.1'
-end
-
-gem "bundler", "~> 2.2"
-
-gem "webrick", "~> 1.7"
+gemspec
