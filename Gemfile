@@ -8,6 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-timeago', '~> 0.13.1'
 end
 
-gem "bundler", "~> 2.2.3"
+gem "bundler", "~> 2.2"
 
 gem "webrick", "~> 1.7"
